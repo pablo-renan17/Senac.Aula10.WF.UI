@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             spaceForm1 = new ReaLTaiizor.Forms.SpaceForm();
+            spaceBorderLabel2 = new ReaLTaiizor.Controls.SpaceBorderLabel();
             spaceLabel3 = new ReaLTaiizor.Controls.SpaceLabel();
             dreamTextBox3 = new ReaLTaiizor.Controls.DreamTextBox();
             spaceLabel2 = new ReaLTaiizor.Controls.SpaceLabel();
@@ -39,7 +40,6 @@
             spaceMaximize1 = new ReaLTaiizor.Controls.SpaceMaximize();
             spaceClose1 = new ReaLTaiizor.Controls.SpaceClose();
             spaceMinimize2 = new ReaLTaiizor.Controls.SpaceMinimize();
-            spaceBorderLabel2 = new ReaLTaiizor.Controls.SpaceBorderLabel();
             spaceForm1.SuspendLayout();
             SuspendLayout();
             // 
@@ -69,20 +69,34 @@
             spaceForm1.NoRounding = false;
             spaceForm1.Padding = new Padding(5, 25, 5, 5);
             spaceForm1.Sizable = true;
-            spaceForm1.Size = new Size(806, 419);
+            spaceForm1.Size = new Size(388, 419);
             spaceForm1.SmartBounds = true;
             spaceForm1.StartPosition = FormStartPosition.CenterScreen;
             spaceForm1.TabIndex = 0;
             spaceForm1.Text = "spaceForm1";
-            spaceForm1.TransparencyKey = Color.Purple;
+            spaceForm1.TransparencyKey = Color.Fuchsia;
             spaceForm1.Transparent = false;
+            // 
+            // spaceBorderLabel2
+            // 
+            spaceBorderLabel2.Customization = "Kioq/yoqKv/+/v7/IyMj/yoqKv8=";
+            spaceBorderLabel2.Font = new Font("Verdana", 8F);
+            spaceBorderLabel2.Image = null;
+            spaceBorderLabel2.Location = new Point(197, 276);
+            spaceBorderLabel2.Name = "spaceBorderLabel2";
+            spaceBorderLabel2.NoRounding = false;
+            spaceBorderLabel2.Size = new Size(100, 40);
+            spaceBorderLabel2.TabIndex = 11;
+            spaceBorderLabel2.Text = "Cancelar";
+            spaceBorderLabel2.TextAlignment = HorizontalAlignment.Center;
+            spaceBorderLabel2.Transparent = false;
             // 
             // spaceLabel3
             // 
             spaceLabel3.Customization = "/v7+/yoqKv8=";
             spaceLabel3.Font = new Font("Verdana", 8F);
             spaceLabel3.Image = null;
-            spaceLabel3.Location = new Point(96, 202);
+            spaceLabel3.Location = new Point(47, 190);
             spaceLabel3.Name = "spaceLabel3";
             spaceLabel3.NoRounding = false;
             spaceLabel3.Size = new Size(75, 19);
@@ -102,9 +116,9 @@
             dreamTextBox3.ColorE = Color.FromArgb(25, 255, 255, 255);
             dreamTextBox3.ColorF = Color.Black;
             dreamTextBox3.ForeColor = Color.FromArgb(40, 218, 255);
-            dreamTextBox3.Location = new Point(96, 227);
+            dreamTextBox3.Location = new Point(47, 215);
             dreamTextBox3.Name = "dreamTextBox3";
-            dreamTextBox3.Size = new Size(237, 20);
+            dreamTextBox3.Size = new Size(250, 20);
             dreamTextBox3.TabIndex = 9;
             // 
             // spaceLabel2
@@ -112,7 +126,7 @@
             spaceLabel2.Customization = "/v7+/yoqKv8=";
             spaceLabel2.Font = new Font("Verdana", 8F);
             spaceLabel2.Image = null;
-            spaceLabel2.Location = new Point(96, 146);
+            spaceLabel2.Location = new Point(47, 134);
             spaceLabel2.Name = "spaceLabel2";
             spaceLabel2.NoRounding = false;
             spaceLabel2.Size = new Size(75, 19);
@@ -132,9 +146,9 @@
             dreamTextBox2.ColorE = Color.FromArgb(25, 255, 255, 255);
             dreamTextBox2.ColorF = Color.Black;
             dreamTextBox2.ForeColor = Color.FromArgb(40, 218, 255);
-            dreamTextBox2.Location = new Point(96, 171);
+            dreamTextBox2.Location = new Point(47, 159);
             dreamTextBox2.Name = "dreamTextBox2";
-            dreamTextBox2.Size = new Size(237, 20);
+            dreamTextBox2.Size = new Size(250, 20);
             dreamTextBox2.TabIndex = 7;
             // 
             // spaceLabel1
@@ -142,7 +156,7 @@
             spaceLabel1.Customization = "/v7+/yoqKv8=";
             spaceLabel1.Font = new Font("Verdana", 8F);
             spaceLabel1.Image = null;
-            spaceLabel1.Location = new Point(96, 92);
+            spaceLabel1.Location = new Point(47, 80);
             spaceLabel1.Name = "spaceLabel1";
             spaceLabel1.NoRounding = false;
             spaceLabel1.Size = new Size(75, 19);
@@ -162,9 +176,9 @@
             dreamTextBox1.ColorE = Color.FromArgb(25, 255, 255, 255);
             dreamTextBox1.ColorF = Color.Black;
             dreamTextBox1.ForeColor = Color.FromArgb(40, 218, 255);
-            dreamTextBox1.Location = new Point(96, 117);
+            dreamTextBox1.Location = new Point(47, 105);
             dreamTextBox1.Name = "dreamTextBox1";
-            dreamTextBox1.Size = new Size(237, 20);
+            dreamTextBox1.Size = new Size(250, 20);
             dreamTextBox1.TabIndex = 5;
             // 
             // spaceBorderLabel1
@@ -172,7 +186,7 @@
             spaceBorderLabel1.Customization = "Kioq/yoqKv/+/v7/IyMj/yoqKv8=";
             spaceBorderLabel1.Font = new Font("Verdana", 8F);
             spaceBorderLabel1.Image = null;
-            spaceBorderLabel1.Location = new Point(96, 286);
+            spaceBorderLabel1.Location = new Point(47, 276);
             spaceBorderLabel1.Name = "spaceBorderLabel1";
             spaceBorderLabel1.NoRounding = false;
             spaceBorderLabel1.Size = new Size(106, 40);
@@ -189,7 +203,7 @@
             spaceMaximize1.DefaultLocation = true;
             spaceMaximize1.Font = new Font("Verdana", 8F);
             spaceMaximize1.Image = null;
-            spaceMaximize1.Location = new Point(756, 3);
+            spaceMaximize1.Location = new Point(338, 3);
             spaceMaximize1.Name = "spaceMaximize1";
             spaceMaximize1.NoRounding = false;
             spaceMaximize1.Size = new Size(23, 21);
@@ -206,7 +220,7 @@
             spaceClose1.DefaultLocation = true;
             spaceClose1.Font = new Font("Verdana", 8F);
             spaceClose1.Image = null;
-            spaceClose1.Location = new Point(783, 3);
+            spaceClose1.Location = new Point(362, 3);
             spaceClose1.Name = "spaceClose1";
             spaceClose1.NoRounding = false;
             spaceClose1.Size = new Size(23, 21);
@@ -222,7 +236,7 @@
             spaceMinimize2.DefaultLocation = true;
             spaceMinimize2.Font = new Font("Verdana", 8F);
             spaceMinimize2.Image = null;
-            spaceMinimize2.Location = new Point(732, 3);
+            spaceMinimize2.Location = new Point(314, 3);
             spaceMinimize2.Name = "spaceMinimize2";
             spaceMinimize2.NoRounding = false;
             spaceMinimize2.Size = new Size(23, 21);
@@ -231,25 +245,11 @@
             spaceMinimize2.Transparent = false;
             spaceMinimize2.WindowState = FormWindowState.Normal;
             // 
-            // spaceBorderLabel2
-            // 
-            spaceBorderLabel2.Customization = "Kioq/yoqKv/+/v7/IyMj/yoqKv8=";
-            spaceBorderLabel2.Font = new Font("Verdana", 8F);
-            spaceBorderLabel2.Image = null;
-            spaceBorderLabel2.Location = new Point(233, 286);
-            spaceBorderLabel2.Name = "spaceBorderLabel2";
-            spaceBorderLabel2.NoRounding = false;
-            spaceBorderLabel2.Size = new Size(100, 40);
-            spaceBorderLabel2.TabIndex = 11;
-            spaceBorderLabel2.Text = "Cancelar";
-            spaceBorderLabel2.TextAlignment = HorizontalAlignment.Center;
-            spaceBorderLabel2.Transparent = false;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(806, 419);
+            ClientSize = new Size(388, 419);
             Controls.Add(spaceForm1);
             FormBorderStyle = FormBorderStyle.None;
             MaximumSize = new Size(1600, 860);
@@ -258,7 +258,7 @@
             ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "themeForm1";
-            TransparencyKey = Color.Purple;
+            TransparencyKey = Color.Fuchsia;
             spaceForm1.ResumeLayout(false);
             spaceForm1.PerformLayout();
             ResumeLayout(false);
