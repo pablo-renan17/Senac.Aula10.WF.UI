@@ -69,7 +69,7 @@
             spaceForm1.NoRounding = false;
             spaceForm1.Padding = new Padding(5, 25, 5, 5);
             spaceForm1.Sizable = true;
-            spaceForm1.Size = new Size(388, 419);
+            spaceForm1.Size = new Size(340, 366);
             spaceForm1.SmartBounds = true;
             spaceForm1.StartPosition = FormStartPosition.CenterScreen;
             spaceForm1.TabIndex = 0;
@@ -203,7 +203,7 @@
             spaceMaximize1.DefaultLocation = true;
             spaceMaximize1.Font = new Font("Verdana", 8F);
             spaceMaximize1.Image = null;
-            spaceMaximize1.Location = new Point(338, 3);
+            spaceMaximize1.Location = new Point(290, 3);
             spaceMaximize1.Name = "spaceMaximize1";
             spaceMaximize1.NoRounding = false;
             spaceMaximize1.Size = new Size(23, 21);
@@ -220,7 +220,7 @@
             spaceClose1.DefaultLocation = true;
             spaceClose1.Font = new Font("Verdana", 8F);
             spaceClose1.Image = null;
-            spaceClose1.Location = new Point(362, 3);
+            spaceClose1.Location = new Point(314, 3);
             spaceClose1.Name = "spaceClose1";
             spaceClose1.NoRounding = false;
             spaceClose1.Size = new Size(23, 21);
@@ -236,7 +236,7 @@
             spaceMinimize2.DefaultLocation = true;
             spaceMinimize2.Font = new Font("Verdana", 8F);
             spaceMinimize2.Image = null;
-            spaceMinimize2.Location = new Point(314, 3);
+            spaceMinimize2.Location = new Point(266, 3);
             spaceMinimize2.Name = "spaceMinimize2";
             spaceMinimize2.NoRounding = false;
             spaceMinimize2.Size = new Size(23, 21);
@@ -249,7 +249,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(388, 419);
+            ClientSize = new Size(340, 366);
             Controls.Add(spaceForm1);
             FormBorderStyle = FormBorderStyle.None;
             MaximumSize = new Size(1600, 860);
