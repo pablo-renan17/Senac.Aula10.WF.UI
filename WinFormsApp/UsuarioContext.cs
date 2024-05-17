@@ -9,6 +9,7 @@ namespace WinFormsApp1
     {
         // coleção de usuarios do banco de dados
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Pedido> Pedidos { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
