@@ -31,12 +31,12 @@
             spaceForm1 = new ReaLTaiizor.Forms.SpaceForm();
             spaceBorderLabel2 = new ReaLTaiizor.Controls.SpaceBorderLabel();
             spaceLabel3 = new ReaLTaiizor.Controls.SpaceLabel();
-            dreamTextBox3 = new ReaLTaiizor.Controls.DreamTextBox();
+            txtBoxSenha = new ReaLTaiizor.Controls.DreamTextBox();
             spaceLabel2 = new ReaLTaiizor.Controls.SpaceLabel();
-            dreamTextBox2 = new ReaLTaiizor.Controls.DreamTextBox();
+            txtBoxEmail = new ReaLTaiizor.Controls.DreamTextBox();
             spaceLabel1 = new ReaLTaiizor.Controls.SpaceLabel();
-            dreamTextBox1 = new ReaLTaiizor.Controls.DreamTextBox();
-            spaceBorderLabel1 = new ReaLTaiizor.Controls.SpaceBorderLabel();
+            txtBoxNome = new ReaLTaiizor.Controls.DreamTextBox();
+            btnSalvar = new ReaLTaiizor.Controls.SpaceBorderLabel();
             spaceMaximize1 = new ReaLTaiizor.Controls.SpaceMaximize();
             spaceClose1 = new ReaLTaiizor.Controls.SpaceClose();
             spaceMinimize2 = new ReaLTaiizor.Controls.SpaceMinimize();
@@ -49,12 +49,12 @@
             spaceForm1.BorderStyle = FormBorderStyle.None;
             spaceForm1.Controls.Add(spaceBorderLabel2);
             spaceForm1.Controls.Add(spaceLabel3);
-            spaceForm1.Controls.Add(dreamTextBox3);
+            spaceForm1.Controls.Add(txtBoxSenha);
             spaceForm1.Controls.Add(spaceLabel2);
-            spaceForm1.Controls.Add(dreamTextBox2);
+            spaceForm1.Controls.Add(txtBoxEmail);
             spaceForm1.Controls.Add(spaceLabel1);
-            spaceForm1.Controls.Add(dreamTextBox1);
-            spaceForm1.Controls.Add(spaceBorderLabel1);
+            spaceForm1.Controls.Add(txtBoxNome);
+            spaceForm1.Controls.Add(btnSalvar);
             spaceForm1.Controls.Add(spaceMaximize1);
             spaceForm1.Controls.Add(spaceClose1);
             spaceForm1.Controls.Add(spaceMinimize2);
@@ -105,21 +105,21 @@
             spaceLabel3.TextAlignment = HorizontalAlignment.Left;
             spaceLabel3.Transparent = false;
             // 
-            // dreamTextBox3
+            // txtBoxSenha
             // 
-            dreamTextBox3.BackColor = Color.FromArgb(41, 41, 41);
-            dreamTextBox3.BorderStyle = BorderStyle.FixedSingle;
-            dreamTextBox3.ColorA = Color.FromArgb(31, 31, 31);
-            dreamTextBox3.ColorB = Color.FromArgb(41, 41, 41);
-            dreamTextBox3.ColorC = Color.FromArgb(51, 51, 51);
-            dreamTextBox3.ColorD = Color.FromArgb(0, 0, 0, 0);
-            dreamTextBox3.ColorE = Color.FromArgb(25, 255, 255, 255);
-            dreamTextBox3.ColorF = Color.Black;
-            dreamTextBox3.ForeColor = Color.FromArgb(40, 218, 255);
-            dreamTextBox3.Location = new Point(47, 215);
-            dreamTextBox3.Name = "dreamTextBox3";
-            dreamTextBox3.Size = new Size(250, 20);
-            dreamTextBox3.TabIndex = 9;
+            txtBoxSenha.BackColor = Color.FromArgb(41, 41, 41);
+            txtBoxSenha.BorderStyle = BorderStyle.FixedSingle;
+            txtBoxSenha.ColorA = Color.FromArgb(31, 31, 31);
+            txtBoxSenha.ColorB = Color.FromArgb(41, 41, 41);
+            txtBoxSenha.ColorC = Color.FromArgb(51, 51, 51);
+            txtBoxSenha.ColorD = Color.FromArgb(0, 0, 0, 0);
+            txtBoxSenha.ColorE = Color.FromArgb(25, 255, 255, 255);
+            txtBoxSenha.ColorF = Color.Black;
+            txtBoxSenha.ForeColor = Color.FromArgb(40, 218, 255);
+            txtBoxSenha.Location = new Point(47, 215);
+            txtBoxSenha.Name = "txtBoxSenha";
+            txtBoxSenha.Size = new Size(250, 20);
+            txtBoxSenha.TabIndex = 9;
             // 
             // spaceLabel2
             // 
@@ -135,21 +135,21 @@
             spaceLabel2.TextAlignment = HorizontalAlignment.Left;
             spaceLabel2.Transparent = false;
             // 
-            // dreamTextBox2
+            // txtBoxEmail
             // 
-            dreamTextBox2.BackColor = Color.FromArgb(41, 41, 41);
-            dreamTextBox2.BorderStyle = BorderStyle.FixedSingle;
-            dreamTextBox2.ColorA = Color.FromArgb(31, 31, 31);
-            dreamTextBox2.ColorB = Color.FromArgb(41, 41, 41);
-            dreamTextBox2.ColorC = Color.FromArgb(51, 51, 51);
-            dreamTextBox2.ColorD = Color.FromArgb(0, 0, 0, 0);
-            dreamTextBox2.ColorE = Color.FromArgb(25, 255, 255, 255);
-            dreamTextBox2.ColorF = Color.Black;
-            dreamTextBox2.ForeColor = Color.FromArgb(40, 218, 255);
-            dreamTextBox2.Location = new Point(47, 159);
-            dreamTextBox2.Name = "dreamTextBox2";
-            dreamTextBox2.Size = new Size(250, 20);
-            dreamTextBox2.TabIndex = 7;
+            txtBoxEmail.BackColor = Color.FromArgb(41, 41, 41);
+            txtBoxEmail.BorderStyle = BorderStyle.FixedSingle;
+            txtBoxEmail.ColorA = Color.FromArgb(31, 31, 31);
+            txtBoxEmail.ColorB = Color.FromArgb(41, 41, 41);
+            txtBoxEmail.ColorC = Color.FromArgb(51, 51, 51);
+            txtBoxEmail.ColorD = Color.FromArgb(0, 0, 0, 0);
+            txtBoxEmail.ColorE = Color.FromArgb(25, 255, 255, 255);
+            txtBoxEmail.ColorF = Color.Black;
+            txtBoxEmail.ForeColor = Color.FromArgb(40, 218, 255);
+            txtBoxEmail.Location = new Point(47, 159);
+            txtBoxEmail.Name = "txtBoxEmail";
+            txtBoxEmail.Size = new Size(250, 20);
+            txtBoxEmail.TabIndex = 7;
             // 
             // spaceLabel1
             // 
@@ -165,35 +165,36 @@
             spaceLabel1.TextAlignment = HorizontalAlignment.Left;
             spaceLabel1.Transparent = false;
             // 
-            // dreamTextBox1
+            // txtBoxNome
             // 
-            dreamTextBox1.BackColor = Color.FromArgb(41, 41, 41);
-            dreamTextBox1.BorderStyle = BorderStyle.FixedSingle;
-            dreamTextBox1.ColorA = Color.FromArgb(31, 31, 31);
-            dreamTextBox1.ColorB = Color.FromArgb(41, 41, 41);
-            dreamTextBox1.ColorC = Color.FromArgb(51, 51, 51);
-            dreamTextBox1.ColorD = Color.FromArgb(0, 0, 0, 0);
-            dreamTextBox1.ColorE = Color.FromArgb(25, 255, 255, 255);
-            dreamTextBox1.ColorF = Color.Black;
-            dreamTextBox1.ForeColor = Color.FromArgb(40, 218, 255);
-            dreamTextBox1.Location = new Point(47, 105);
-            dreamTextBox1.Name = "dreamTextBox1";
-            dreamTextBox1.Size = new Size(250, 20);
-            dreamTextBox1.TabIndex = 5;
+            txtBoxNome.BackColor = Color.FromArgb(41, 41, 41);
+            txtBoxNome.BorderStyle = BorderStyle.FixedSingle;
+            txtBoxNome.ColorA = Color.FromArgb(31, 31, 31);
+            txtBoxNome.ColorB = Color.FromArgb(41, 41, 41);
+            txtBoxNome.ColorC = Color.FromArgb(51, 51, 51);
+            txtBoxNome.ColorD = Color.FromArgb(0, 0, 0, 0);
+            txtBoxNome.ColorE = Color.FromArgb(25, 255, 255, 255);
+            txtBoxNome.ColorF = Color.Black;
+            txtBoxNome.ForeColor = Color.FromArgb(40, 218, 255);
+            txtBoxNome.Location = new Point(47, 105);
+            txtBoxNome.Name = "txtBoxNome";
+            txtBoxNome.Size = new Size(250, 20);
+            txtBoxNome.TabIndex = 5;
             // 
-            // spaceBorderLabel1
+            // btnSalvar
             // 
-            spaceBorderLabel1.Customization = "Kioq/yoqKv/+/v7/IyMj/yoqKv8=";
-            spaceBorderLabel1.Font = new Font("Verdana", 8F);
-            spaceBorderLabel1.Image = null;
-            spaceBorderLabel1.Location = new Point(47, 276);
-            spaceBorderLabel1.Name = "spaceBorderLabel1";
-            spaceBorderLabel1.NoRounding = false;
-            spaceBorderLabel1.Size = new Size(106, 40);
-            spaceBorderLabel1.TabIndex = 4;
-            spaceBorderLabel1.Text = "Salvar";
-            spaceBorderLabel1.TextAlignment = HorizontalAlignment.Center;
-            spaceBorderLabel1.Transparent = false;
+            btnSalvar.Customization = "Kioq/yoqKv/+/v7/IyMj/yoqKv8=";
+            btnSalvar.Font = new Font("Verdana", 8F);
+            btnSalvar.Image = null;
+            btnSalvar.Location = new Point(47, 276);
+            btnSalvar.Name = "btnSalvar";
+            btnSalvar.NoRounding = false;
+            btnSalvar.Size = new Size(106, 40);
+            btnSalvar.TabIndex = 4;
+            btnSalvar.Text = "Salvar";
+            btnSalvar.TextAlignment = HorizontalAlignment.Center;
+            btnSalvar.Transparent = false;
+            btnSalvar.Click += btnSalvar_Click;
             // 
             // spaceMaximize1
             // 
@@ -270,13 +271,13 @@
         private ReaLTaiizor.Controls.SpaceMaximize spaceMaximize1;
         private ReaLTaiizor.Controls.SpaceClose spaceClose1;
         private ReaLTaiizor.Controls.SpaceMinimize spaceMinimize2;
-        private ReaLTaiizor.Controls.DreamTextBox dreamTextBox1;
-        private ReaLTaiizor.Controls.SpaceBorderLabel spaceBorderLabel1;
+        private ReaLTaiizor.Controls.DreamTextBox txtBoxNome;
+        private ReaLTaiizor.Controls.SpaceBorderLabel btnSalvar;
         private ReaLTaiizor.Controls.SpaceLabel spaceLabel1;
         private ReaLTaiizor.Controls.SpaceLabel spaceLabel3;
-        private ReaLTaiizor.Controls.DreamTextBox dreamTextBox3;
+        private ReaLTaiizor.Controls.DreamTextBox txtBoxSenha;
         private ReaLTaiizor.Controls.SpaceLabel spaceLabel2;
-        private ReaLTaiizor.Controls.DreamTextBox dreamTextBox2;
+        private ReaLTaiizor.Controls.DreamTextBox txtBoxEmail;
         private ReaLTaiizor.Controls.SpaceBorderLabel spaceBorderLabel2;
     }
 }

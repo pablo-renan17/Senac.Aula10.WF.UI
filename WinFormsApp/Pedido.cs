@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp1
+﻿namespace WinFormsApp
 {
     public class Pedido
     {

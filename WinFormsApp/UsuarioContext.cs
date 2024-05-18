@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using WinFormsApp;
 
-namespace WinFormsApp1
+namespace WinFormsApp
 {
     // visivel classe nome: UsuarioContext
     // Criar uma classe que herdas as caracterista de um BD
